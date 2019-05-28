@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Benchmark:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Benchmark_jar</output-path>
+    <root id="archive" name="Benchmark.jar">
+      <element id="module-output" name="Benchmark" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/jna-4.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpmime-4.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/fluent-hc-4.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpcore-4.4.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpclient-4.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/jna-platform-4.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpclient-win-4.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpclient-cache-4.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="Z:/Documents/Pdf/Architecture D'ordinateur/specs/New folder/gson-2.8.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

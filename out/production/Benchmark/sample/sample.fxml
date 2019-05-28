@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="865.0" prefWidth="1297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="869.0" prefWidth="1297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+       <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#42efff" height="108.0" layoutX="1003.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" width="107.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="941.0" layoutY="425.0" stroke="BLACK" strokeType="INSIDE" width="266.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="941.0" layoutY="362.0" stroke="BLACK" strokeType="INSIDE" width="266.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="269.0" layoutY="425.0" stroke="BLACK" strokeType="INSIDE" width="266.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#007bff9f" height="345.0" layoutX="43.0" layoutY="483.0" stroke="BLACK" strokeType="INSIDE" width="616.0" />
+               <Button layoutX="27.0" layoutY="158.0" mnemonicParsing="false" onAction="#test" prefHeight="108.0" prefWidth="440.0" text="Bench my PC" textFill="#00aeff">
+                   <font>
+                       <Font name="System Bold" size="20.0" />
+                   </font>
+               </Button>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0084ff" height="138.0" layoutX="-4.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="1305.0" />
+           <Text fill="#009dff" layoutX="513.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Single-Core Score: " wrappingWidth="308.0">
+               <font>
+                   <Font name="System Bold" size="18.0" />
+               </font>
+           </Text>
+           <Text fill="#009dff" layoutX="513.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Multi-Core Score: " wrappingWidth="374.0">
+               <font>
+                   <Font name="System Bold" size="18.0" />
+               </font>
+           </Text>
+           <Text fill="#fff8f8" layoutX="35.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BENCHMARK" wrappingWidth="588.41748046875">
+               <font>
+                   <Font size="68.0" />
+               </font>
+           </Text>
+           <Text layoutX="93.0" layoutY="600.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="CPU:">
+               <font>
+                   <Font size="40.0" />
+               </font>
+           </Text>
+           <Text layoutX="92.0" layoutY="736.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="RAM:">
+               <font>
+                   <Font size="40.0" />
+               </font>
+           </Text>
+           <Text layoutX="82.0" layoutY="666.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="CORES:">
+               <font>
+                   <Font size="40.0" />
+               </font>
+           </Text>
+           <Text layoutX="262.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPECS">
+               <font>
+                   <Font size="48.0" />
+               </font>
+           </Text>
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="57.0" layoutX="506.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="298.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="57.0" layoutX="506.0" layoutY="269.0" stroke="BLACK" strokeType="INSIDE" width="298.0" />
+           <Line endX="100.0" layoutX="146.0" layoutY="546.0" startX="-100.0" />
+           <Line endX="100.0" layoutX="339.0" layoutY="546.0" startX="-100.0" />
+           <Line endX="100.0" layoutX="458.0" layoutY="546.0" startX="-100.0" />
+           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="282.0" layoutX="252.0" layoutY="546.0" stroke="BLACK" strokeType="INSIDE" width="407.0" />
+           <ProgressBar fx:id="myprogressbar" layoutX="120.0" layoutY="290.0" prefHeight="36.0" prefWidth="298.0" progress="0.0" />
+           <ProgressIndicator fx:id="myprogressindicator" layoutX="49.0" layoutY="293.0" progress="0.0" />
+           <Label fx:id="CPU" alignment="CENTER" layoutX="269.0" layoutY="558.0" prefHeight="53.0" prefWidth="383.0" text="CPU NAME">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+           <Label fx:id="CORES" alignment="CENTER" layoutX="262.0" layoutY="623.0" prefHeight="53.0" prefWidth="383.0" text="THREAD/CORES">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+           <Label fx:id="RAM" alignment="CENTER" layoutX="256.0" layoutY="697.0" prefHeight="53.0" prefWidth="383.0" text="MAX RAM AVAILABLE" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+           <Label fx:id="singlecorescore" alignment="CENTER" layoutX="513.0" layoutY="179.0" prefHeight="43.0" prefWidth="283.0" text="0">
+               <font>
+                   <Font size="29.0" />
+               </font>
+           </Label>
+           <Label fx:id="multicorescore" alignment="CENTER" layoutX="514.0" layoutY="276.0" prefHeight="43.0" prefWidth="283.0" text="0">
+               <font>
+                   <Font size="29.0" />
+               </font>
+           </Label>
+         <Text fill="#009dff" layoutX="914.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your rank in the world: " wrappingWidth="298.0">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+         </Text>
+            <Label alignment="CENTER" layoutX="258.0" layoutY="363.0" prefHeight="43.0" prefWidth="283.0" text="0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="267.0" layoutY="363.0" stroke="BLACK" strokeType="INSIDE" width="266.0" />
+            <Text fill="#009dff" layoutX="26.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bubble sort Execution Time" wrappingWidth="236.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Label fx:id="bubble" alignment="CENTER" layoutX="269.0" layoutY="362.0" prefHeight="43.0" prefWidth="266.0" text="0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="primens" alignment="CENTER" layoutX="264.0" layoutY="425.0" prefHeight="43.0" prefWidth="266.0" text="0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Text fill="#009dff" layoutX="43.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prime Numbers Search" wrappingWidth="201.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#009dff" layoutX="568.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Floating Point Operations" textAlignment="CENTER" wrappingWidth="340.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Label fx:id="floatpo" alignment="CENTER" layoutX="941.0" layoutY="362.0" prefHeight="43.0" prefWidth="266.0" text="0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="parprimenumb" alignment="CENTER" layoutX="941.0" layoutY="425.0" prefHeight="43.0" prefWidth="266.0" text="0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Text fill="#009dff" layoutX="547.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PARALLEL Prime Number Search" textAlignment="CENTER" wrappingWidth="383.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Label fx:id="rank" alignment="CENTER" layoutX="871.0" layoutY="218.0" prefHeight="90.0" prefWidth="368.0" text="0">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <LineChart fx:id="lineChart" layoutX="723.0" layoutY="483.0" prefHeight="359.0" prefWidth="516.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <Text layoutX="59.0" layoutY="799.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="MAC ADR">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Label fx:id="MAC" alignment="CENTER" layoutX="267.0" layoutY="759.0" prefHeight="53.0" prefWidth="383.0" text="MAC ADDRESS" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+       </children>
+   </Pane>
+   </children>
+</AnchorPane>
